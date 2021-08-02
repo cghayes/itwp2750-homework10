@@ -13,7 +13,7 @@
     /* This script registers a user by storing their information in a text file.  */
 
     // Add error reporting
-    ini_set('display_errors', 1);
+    ini_set('display_errors', 0);
     error_reporting(E_ALL);
 
     // Print introductory text:
@@ -91,12 +91,8 @@
 
 	</main>
 	<footer>
-		<!-- Links to W3C HTML5 & CSS Validation and your Course Homepage -->
-		<p id="validation">
-		<a href="http://validator.w3.org/check?uri=referer" title="HTML5 Validation - W3C">HTML5 Validation</a> |
-		<a href="https://jigsaw.w3.org/css-validator/check?uri=referer" title="CSS Validation - W3C">CSS Validation</a> |
-		<a href="../home.htm" title="Course Homepage">Course Homepage</a><br>
-		<span id="shout_out">Form layout CodePen courtesy of <a href="https://codepen.io/dfitzy/pen/VepqMq" title="Vintage Inspired Contact Form" target="_blank">David Fitas</a></span>
+    <p id="validation">
+      <span id="shout_out">Form layout CodePen courtesy of <a href="https://codepen.io/dfitzy/pen/VepqMq" title="Vintage Inspired Contact Form" target="_blank">David Fitas</a></span>
 		</p>
 	</footer>
 </body>
